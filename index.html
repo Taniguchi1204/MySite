@@ -9,6 +9,16 @@
 
   </head>
   <body>
+    <div id="list">
+      <nv>
+        <ul>
+          <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#Feature">Feature</a></li>
+              <li><a href="#Profile">Profile</a></li>
+              <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </nv>
+    </div>
     <header>
       <div class="text">
         <div class="logo">
@@ -17,14 +27,14 @@
         <div class="nav-list">
           <nav>
             <ul>
-              <li>Portfolio</li>
-              <li>Feature</li>
-              <li>Profile</li>
-              <li>Contact</li>
+              <li><a href="#Portfolio">Portfolio</a></li>
+              <li><a href="#Feature">Feature</a></li>
+              <li><a href="#Profile">Profile</a></li>
+              <li><a href="#Contact">Contact</a></li>
             </ul>
             </nav>
         </div>
-        <i class="fas fa-bars hamburger"></i>
+        <a id="active"><i class="fas fa-bars hamburger"></i></a>
       </div>
     </header>
     <main>
@@ -32,7 +42,7 @@
         <h1>Lorem Ipsum</h1>
         <p>simply dummy text of the printing</p>
       </div>
-      <div class="contents">
+      <div id="Portfolio" class="contents">
         <div class="details">
           <h1>Portfolio</h1>
           <p class="details-text">It is a long established fact that a reader will be distracted by the readable<br>
@@ -48,7 +58,7 @@
           </div>
         </div>
       </div>
-      <div class="contents contents2">
+      <div id="Feature" class="contents contents2">
         <div class="details f-details">
           <h1>Feature</h1>
           <p class="details-text">It is a long established fact that a reader will be distracted by the readable<br>
@@ -72,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="contents">
+      <div id="Profile" class="contents">
         <div class="details pro-detail">
           <h1>Profile</h1>
           <p class="details-text">It is a long established fact that a reader will be distracted by the readable<br>
@@ -95,7 +105,7 @@
           </div>
         </div>
       </div>
-      <div class="contents contents2">
+      <div id="Contact" class="contents contents2">
         <div class="details contact-details">
           <h1>Contact</h1>
           <p class="details-text">It is a long established fact that a reader will be distracted by the readable<br>
@@ -121,6 +131,7 @@
     <footer>
       <p>©︎ 2017 WebCamp</p>
     </footer>
-
+    <script src="jquery.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
